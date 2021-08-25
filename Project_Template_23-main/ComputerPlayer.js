@@ -1,9 +1,9 @@
-class ComputerBase{
+class ComputerPlayer {
     constructor(x, y, width, height) {
       var options = {
         isStatic: true
       };
-      this.image = loadImage("assets/base1.png");
+      this.image = loadImage("assets/player.png");
       this.width = width;
       this.height = height;
       this.body = Bodies.rectangle(x, y, this.width, this.height, options);
